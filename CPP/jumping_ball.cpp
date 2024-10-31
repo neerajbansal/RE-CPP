@@ -11,6 +11,7 @@ int main()
     string floor(79, '-'),
     header = "**** JUMPING BALL ****";
     CLS;
+    
     LOCATE(1,25); cout << header;
     LOCATE(25,1); cout << floor;
     while(true) // Let the ball "always" bounce
