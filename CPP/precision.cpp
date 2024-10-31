@@ -1,5 +1,7 @@
 #include <iostream>
-#include <boost/multiprecision/cpp_dec_float.hpp>
+#include"boost/multiprecision/detail/standalone_config.hpp"
+#include"boost/multiprecision/cpp_dec_float.hpp"
+
 
 // Define a high-precision floating-point type with 50 decimal places.
 using boost::multiprecision::cpp_dec_float_50;
